@@ -5,14 +5,14 @@ const box = document.getElementById("divStyle");
 //hämta alla element med klassen 'textfield'
 const textfields = document.querySelectorAll(".textfield");
 
-// hämta en HTMLCollection av alla element med klassen button??
+//hämta en HTMLCollection av alla element med klassen button
 
 const buttons = document.getElementsByTagName("button");
 
 //hämta första elementet med klassen empty_div
 const emptyDiv = document.querySelector(".empty_div");
 
-// uppgift 5
+//Uppgift 5
 function handleInputChange(e) {
     // Skriv ut event.target till konsolen
     console.log('Event target:', e.target);
@@ -29,7 +29,7 @@ function handleInputChange(e) {
    
     } 
     
-// Uppgift 6 
+//Uppgift 6 
 textfields.forEach(textfield=>{
     if(textfield.name=="color"){
         box.addEventListener("change",function(){
